@@ -58,5 +58,7 @@ public class ConsoleApp {
         System.out.println("With parameters "+ parameterA +" and "+ parameterB +" the result is "
           + Generator.generator(Long.parseLong(parameterA), Long.parseLong(parameterB),
           Long.parseLong(generatorFactorA), Long.parseLong(generatorFactorB), Long.parseLong(divisor), Long.parseLong(numberOfComparisons)));
+
+        scanner.close();
     }
 }
